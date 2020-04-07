@@ -7196,6 +7196,13 @@
       ]
     },
     {
+      "name": "pikto-idea",
+      "tags": [
+        "idea",
+        "pikto"
+      ]
+    },
+    {
       "name": "pin",
       "tags": [
         "gps",
