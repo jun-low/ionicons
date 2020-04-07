@@ -10,7 +10,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface IonIcon {
+  interface PiktoIcon {
     /**
     * Specifies the label to use for accessibility. Defaults to the icon name.
     */
@@ -61,18 +61,18 @@ export namespace Components {
 declare global {
 
 
-  interface HTMLIonIconElement extends Components.IonIcon, HTMLStencilElement {}
-  var HTMLIonIconElement: {
-    prototype: HTMLIonIconElement;
-    new (): HTMLIonIconElement;
+  interface HTMLPiktoIconElement extends Components.PiktoIcon, HTMLStencilElement {}
+  var HTMLPiktoIconElement: {
+    prototype: HTMLPiktoIconElement;
+    new (): HTMLPiktoIconElement;
   };
   interface HTMLElementTagNameMap {
-    'ion-icon': HTMLIonIconElement;
+    'pikto-icon': HTMLPiktoIconElement;
   }
 }
 
 declare namespace LocalJSX {
-  interface IonIcon {
+  interface PiktoIcon {
     /**
     * Specifies the label to use for accessibility. Defaults to the icon name.
     */
@@ -120,7 +120,7 @@ declare namespace LocalJSX {
   }
 
   interface IntrinsicElements {
-    'ion-icon': IonIcon;
+    'pikto-icon': PiktoIcon;
   }
 }
 
@@ -130,7 +130,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
-      'ion-icon': LocalJSX.IonIcon & JSXBase.HTMLAttributes<HTMLIonIconElement>;
+      'pikto-icon': LocalJSX.PiktoIcon & JSXBase.HTMLAttributes<HTMLPiktoIconElement>;
     }
   }
 }

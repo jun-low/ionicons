@@ -60,42 +60,42 @@ svg {
  * -----------------------------------------------------------
  */
 
-:host(.ion-color) {
+:host(.pikto-color) {
   color: var(--ion-color-base) !important;
 }
 
-:host(.ion-color-primary) {
+:host(.pikto-color-primary) {
   --ion-color-base: var(--ion-color-primary, #3880ff);
 }
 
-:host(.ion-color-secondary) {
+:host(.pikto-color-secondary) {
   --ion-color-base: var(--ion-color-secondary, #0cd1e8);
 }
 
-:host(.ion-color-tertiary) {
+:host(.pikto-color-tertiary) {
   --ion-color-base: var(--ion-color-tertiary, #f4a942);
 }
 
-:host(.ion-color-success) {
+:host(.pikto-color-success) {
   --ion-color-base: var(--ion-color-success, #10dc60);
 }
 
-:host(.ion-color-warning) {
+:host(.pikto-color-warning) {
   --ion-color-base: var(--ion-color-warning, #ffce00);
 }
 
-:host(.ion-color-danger) {
+:host(.pikto-color-danger) {
   --ion-color-base: var(--ion-color-danger, #f14141);
 }
 
-:host(.ion-color-light) {
+:host(.pikto-color-light) {
   --ion-color-base: var(--ion-color-light, #f4f5f8);
 }
 
-:host(.ion-color-medium) {
+:host(.pikto-color-medium) {
   --ion-color-base: var(--ion-color-medium, #989aa2);
 }
 
-:host(.ion-color-dark) {
+:host(.pikto-color-dark) {
   --ion-color-base: var(--ion-color-dark, #222428);
 }

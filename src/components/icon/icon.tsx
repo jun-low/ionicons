@@ -4,7 +4,7 @@ import { getName, getUrl } from './utils';
 
 
 @Component({
-  tag: 'ion-icon',
+  tag: 'pikto-icon',
   assetsDir: 'svg',
   styleUrl: 'icon.css',
   shadow: true
@@ -166,7 +166,7 @@ const getIonMode = () => (Build.isBrowser && typeof document !== 'undefined' && 
 
 const createColorClasses = (color: string | undefined) => {
   return (color) ? {
-    'ion-color': true,
-    [`ion-color-${color}`]: true
+    'pikto-color': true,
+    [`pikto-color-${color}`]: true
   } : null;
 };
