@@ -31,10 +31,10 @@ If you're using [Ionic Framework](https://ionicframework.com/), Ionicons is pack
 
 ### Basic usage
 
-To use a built-in icon from the Ionicons package, populate the `name` attribute on the ion-icon component:
+To use a built-in icon from the Ionicons package, populate the `name` attribute on the pikto-icon component:
 
 ```html
-<ion-icon name="heart"></ion-icon>
+<pikto-icon name="heart"></pikto-icon>
 ```
 
 ### Custom icons
@@ -42,23 +42,23 @@ To use a built-in icon from the Ionicons package, populate the `name` attribute 
 To use a custom SVG, provide its url in the `src` attribute to request the external SVG file. The `src` attribute works the same as `<img src="...">` in that the url must be accessible from the webpage that's making a request for the image. Additionally, the external file can only be a valid svg and does not allow scripts or events within the svg element.
 
 ```html
-<ion-icon src="/path/to/external/file.svg"></ion-icon>
+<pikto-icon src="/path/to/external/file.svg"></pikto-icon>
 ```
 
 ## Variants
 Each app icon in Ionicons has a `filled`, `outline` and `sharp` variant. These different variants are provided to make your app feel native to a variety of platforms. The filled variant uses the default name without a suffix. Note: Logo icons do not have outline or sharp variants.
 
 ```html
-<ion-icon name="heart"></ion-icon> <!--filled-->
-<ion-icon name="heart-outline"></ion-icon> <!--outline-->
-<ion-icon name="heart-sharp"></ion-icon> <!--sharp-->
+<pikto-icon name="heart"></pikto-icon> <!--filled-->
+<pikto-icon name="heart-outline"></pikto-icon> <!--outline-->
+<pikto-icon name="heart-sharp"></pikto-icon> <!--sharp-->
 ```
 
 ### Platform specificity
 When using icons in Ionic Framework you can specify different icons per platform. Use the `md` and `ios` attributes and provide the platform specific icon/variant name.
 
 ```html
-<ion-icon ios="heart-outline" md="heart-sharp"></ion-icon>
+<pikto-icon ios="heart-outline" md="heart-sharp"></pikto-icon>
 ```
 
 ## Size
@@ -66,37 +66,37 @@ When using icons in Ionic Framework you can specify different icons per platform
 To specify the icon size, you can use the size attribute for our pre-defined font sizes.
 
 ```html
-<ion-icon size="small"></ion-icon>
-<ion-icon size="large"></ion-icon>
+<pikto-icon size="small"></pikto-icon>
+<pikto-icon size="large"></pikto-icon>
 ```
 
-Or you can set a specific size by applying the `font-size` CSS property on the `ion-icon` component. It's recommended to use pixel sizes that are a multiple of 8 (8, 16, 32, 64, etc.)
+Or you can set a specific size by applying the `font-size` CSS property on the `pikto-icon` component. It's recommended to use pixel sizes that are a multiple of 8 (8, 16, 32, 64, etc.)
 
 ```css
-ion-icon {
+pikto-icon {
   font-size: 64px;
 }
 ```
 
 ## Color
 
-Specify the icon color by applying the `color` CSS property on the `ion-icon` component.
+Specify the icon color by applying the `color` CSS property on the `pikto-icon` component.
 
 ```css
-ion-icon {
+pikto-icon {
   color: blue;
 }
 ```
 
 ## Stroke weight
-When using an `outline` icon variant it is possible to adjust the stroke weight, for improved visual balance relative to the icon's size or relative to the weight of adjacent text. You can set a specific size by applying the `--ionicon-stroke-weight` CSS custom property to the `ion-icon` component. The default value is 32px.
+When using an `outline` icon variant it is possible to adjust the stroke weight, for improved visual balance relative to the icon's size or relative to the weight of adjacent text. You can set a specific size by applying the `--ionicon-stroke-weight` CSS custom property to the `pikto-icon` component. The default value is 32px.
 
 ```html
-<ion-icon name="heart-outline"></ion-icon>
+<pikto-icon name="heart-outline"></pikto-icon>
 ```
 
 ```css
-ion-icon {
+pikto-icon {
   --ionicon-stroke-width: 16px;
 }
 ```

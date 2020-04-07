@@ -2,7 +2,7 @@
 
 ## Updating Icons
 
-The `src/svg` directory is the single source of truth for svgs. They should not already be optimized and can be the original svg export straight out of an svg editor. A build step before releasing will optimize the source svgs (remove comments, reduce the size, etc) and ensure they'll work within `ion-icon`.
+The `src/svg` directory is the single source of truth for svgs. They should not already be optimized and can be the original svg export straight out of an svg editor. A build step before releasing will optimize the source svgs (remove comments, reduce the size, etc) and ensure they'll work within `pikto-icon`.
 
 
 ## Build Locally
@@ -11,17 +11,17 @@ After an svg has been updated, added or deleted from the `src/svg` directory, ru
 
     npm run build
 
-The build command will optimize all of the icons and generate the files to be distributed. After the build command, all of the optimized svgs are saved in `dist/ionicons/svg`. Additionally the `dist` directory contains the distribution files for the `ion-icon` web component.
+The build command will optimize all of the icons and generate the files to be distributed. After the build command, all of the optimized svgs are saved in `dist/ionicons/svg`. Additionally the `dist` directory contains the distribution files for the `pikto-icon` web component.
 
 
 ## Svg Symbols Cheatsheet
 
-After a build, a new `www/cheatsheet.html` file will be created. This version uses svg symbols rather than `ion-icon`.
+After a build, a new `www/cheatsheet.html` file will be created. This version uses svg symbols rather than `pikto-icon`.
 
 
-## ion-icon Component Preview
+## pikto-icon Component Preview
 
-To see the `ion-icon` component in action, run:
+To see the `pikto-icon` component in action, run:
 
     npm start
 
